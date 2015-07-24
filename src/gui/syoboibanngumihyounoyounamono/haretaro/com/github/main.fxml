@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import java.net.URL?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:controller="gui.syoboibanngumihyounoyounamono.haretaro.com.github.Main" maxHeight="-1.0" maxWidth="-1.0" prefHeight="469.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<stylesheets>
+	<URL value="@style.css" />
+</stylesheets>
+<children>
+      <DatePicker fx:id="datePicker" layoutX="14.0" layoutY="14.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <TextArea fx:id="console" editable="false" layoutX="14.0" layoutY="429.0" prefHeight="45.0" prefWidth="420.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+      <Button fx:id="nowButton" layoutX="14.0" layoutY="45.0" mnemonicParsing="false" text="Now !" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="45.0" />
+      <TextField fx:id="days" alignment="CENTER" layoutX="71.0" layoutY="45.0" prefHeight="23.0" prefWidth="35.0" AnchorPane.leftAnchor="71.0" AnchorPane.topAnchor="45.0" />
+      <Label layoutX="108.0" layoutY="49.0" text="日分読み込む" AnchorPane.leftAnchor="108.0" AnchorPane.topAnchor="49.0" />
+      <TextField fx:id="titleFilterField" layoutX="197.0" layoutY="45.0" prefHeight="23.0" prefWidth="163.0" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="46.0" />
+      <CheckBox fx:id="firstCheckBox" layoutX="370.0" layoutY="49.0" mnemonicParsing="false" text="初回" AnchorPane.leftAnchor="370.0" AnchorPane.topAnchor="49.0" />
+      <TextField fx:id="chNameFilterField" layoutX="420.0" layoutY="45.0" AnchorPane.leftAnchor="426.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="44.0" />
+      <TableView fx:id="table" layoutX="191.0" layoutY="80.0" prefHeight="326.0" prefWidth="620.0" AnchorPane.bottomAnchor="63.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="80.0">
+        <columns>
+          <TableColumn fx:id="time" editable="false" prefWidth="170.0" text="放送日時" />
+          <TableColumn fx:id="title" editable="false" prefWidth="200.0" text="タイトル" />
+          <TableColumn fx:id="count" editable="false" minWidth="7.0" prefWidth="40.0" text="話数" />
+          <TableColumn fx:id="chName" editable="false" text="放送局" />
+          <TableColumn fx:id="subTitle" editable="false" prefWidth="260.0" text="サブタイトル" />
+        </columns>
+      </TableView>
+</children>
+</AnchorPane>

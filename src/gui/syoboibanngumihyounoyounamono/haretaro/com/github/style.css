@@ -1,0 +1,12 @@
+.broadcastingAnime{
+	-fx-background-color: Beige;
+}
+.broadcastingAnime:selected{
+	-fx-background-color: #0096c8;
+}
+.endedAnime .table-cell{
+	-fx-text-fill: grey;
+}
+.endedAnime:selected .table-cell{
+	-fx-text-fill: white;
+}
