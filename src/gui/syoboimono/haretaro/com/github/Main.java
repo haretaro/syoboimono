@@ -1,4 +1,4 @@
-package gui.syoboibanngumihyounoyounamono.haretaro.com.github;
+package gui.syoboimono.haretaro.com.github;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 import java.util.stream.Collectors;
 
-import core.syoboibanngumihyounoyounamono.haretaro.com.github.Anime;
+import core.syoboimono.haretaro.com.github.Anime;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

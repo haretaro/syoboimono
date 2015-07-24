@@ -1,4 +1,4 @@
-package core.syoboibanngumihyounoyounamono.haretaro.com.github;
+package core.syoboimono.haretaro.com.github;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
