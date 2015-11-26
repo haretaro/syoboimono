@@ -1,4 +1,4 @@
-package core.syoboimono.haretaro.com.github;
+package com.github.hretaro.syoboimono.core;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -22,7 +22,8 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import domUtility.syoboimono.haretaro.com.github.IterableNodeList;
+import com.github.haretaro.syoboimono.domutility.IterableNodeList;
+
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;

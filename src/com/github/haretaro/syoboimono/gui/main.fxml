@@ -9,7 +9,7 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane fx:controller="gui.syoboimono.haretaro.com.github.Main" maxHeight="-1.0" maxWidth="-1.0" prefHeight="469.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:controller="com.github.haretaro.syoboimono.gui.Main" maxHeight="-1.0" maxWidth="-1.0" prefHeight="469.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
 <stylesheets>
 	<URL value="@style.css" />
 </stylesheets>

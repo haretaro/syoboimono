@@ -1,4 +1,4 @@
-package domUtility.syoboimono.haretaro.com.github;
+package com.github.haretaro.syoboimono.domutility;
 
 import java.util.Iterator;
 import java.util.Spliterator;

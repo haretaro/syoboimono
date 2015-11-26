@@ -1,9 +1,9 @@
-package example.syoboimono.haretaro.com.github;
+package com.github.haretaro.syoboimono.example;
 
 import java.io.IOException;
 import java.util.List;
 
-import core.syoboimono.haretaro.com.github.Anime;
+import com.github.hretaro.syoboimono.core.Anime;
 
 public class SyoboiCalendarTest {
 	public static void main(String[] args){
